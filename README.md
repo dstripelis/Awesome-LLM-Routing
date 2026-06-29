@@ -51,6 +51,11 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 | [Unify](https://unify.ai/)                 | https://console.unify.ai/routers                                 | https://unify.ai/docs                                                                  | https://github.com/unifyai/unify                    |
 | [TensorOpera](https://tensoropera.ai)      | https://tensoropera.ai/prod/deploy/inference-endpoints           | https://docs.tensoropera.ai/                                                           | https://github.com/FedML-AI/PolyRouter              |
 
+## Other-Open-Source-Projects
+| Name | Description | GitHub Repo |
+|------|-------------|-------------|
+| [rust-norion](https://github.com/yanghao1143/rust-norion) | Rust-based inference control layer prototype focused on adaptive routing, memory, reflection, device/backend adaptation, benchmark gates, and auditable self-evolution workflows. | https://github.com/yanghao1143/rust-norion |
+
 
 ## Other-Awesome-Repos
 * [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) on Large Language Models
