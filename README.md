@@ -54,6 +54,7 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 ## Other-Open-Source-Projects
 | Name | Description | GitHub Repo |
 |------|-------------|-------------|
+| [LLM-PQR](https://github.com/Amazed-Labs/llm-pqr) | Provider-neutral model selection CLI using measured quality, reliability, latency, cost, capabilities, and hard privacy constraints. | https://github.com/Amazed-Labs/llm-pqr |
 | [rust-norion](https://github.com/yanghao1143/rust-norion) | Rust-based inference control layer prototype focused on adaptive routing, memory, reflection, device/backend adaptation, benchmark gates, and auditable self-evolution workflows. | https://github.com/yanghao1143/rust-norion |
 
 
