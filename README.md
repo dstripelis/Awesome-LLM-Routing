@@ -50,6 +50,7 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 | [Open Router](https://openrouter.ai/)      | https://openrouter.ai/chat?room=orc-sRs6eKwwynxWRdT8ySvhb1blvwiV | https://openrouter.ai/docs/quick-start                                                 | https://github.com/OpenRouterTeam/openrouter-runner |
 | [Unify](https://unify.ai/)                 | https://console.unify.ai/routers                                 | https://unify.ai/docs                                                                  | https://github.com/unifyai/unify                    |
 | [TensorOpera](https://tensoropera.ai)      | https://tensoropera.ai/prod/deploy/inference-endpoints           | https://docs.tensoropera.ai/                                                           | https://github.com/FedML-AI/PolyRouter              |
+| [XiuRouter](https://router.xiu.ai/)        | https://router.xiu.ai/                                           | https://docs.xiu.ai/router/                                                            |                                                     |
 
 ## Other-Open-Source-Projects
 | Name | Description | GitHub Repo |
