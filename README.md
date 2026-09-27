@@ -40,6 +40,7 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 
 | Name                                       | Platform / App / Chat Arena                                      | Docs                                                                                   | GitHub Repo                                         |
 |--------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------|
+| [APIClaw](https://apiclaw.biz/) | https://apiclaw.biz/ | https://apiclaw.biz/ | |
 | [Anyscale](https://www.anyscale.com/)      | https://www.anyscale.com/platform                                | https://docs.anyscale.com/                                                             | https://github.com/anyscale/llm-router              |
 | [Aurelio AI](https://www.aurelio.ai/)      | https://www.aurelio.ai/course/semantic-router                    | https://www.aurelio.ai/course/semantic-router                                          | https://github.com/aurelio-labs/semantic-router     |
 | [FerryAPI](https://www.ferryapi.io/)     | https://www.ferryapi.io/                                       | https://www.ferryapi.io/docs                                                          |                                                     |
