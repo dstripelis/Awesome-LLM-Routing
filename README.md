@@ -1,17 +1,19 @@
 # Awesome-LLM-Routing 🥋
 
-So many LLMs, so many experts! LLM/Model-Routing holds the promise to combine all of them and answer queries by finding the most compatible, affordable and brisk expert.
+So many LLMs, each with different strengths. LLM/Model-Routing holds the promise to combine all of them and answer queries by finding the most compatible, affordable and brisk expert.
 
 ![](resources/giphy.gif)
 
 Below, we provide a curated list of research papers and studies discussing LLM routing techniques, as well as projects and companies offering LLM and model routing solutions.
 
 
-## Table of Content
+## Table of Contents
 
-- [Research Papers](#Research-Papers)
-- [Companies/Startups](#Companies/Startups)
-- [Other Awesome Repos](#Other-Awesome-Repos)
+- [Research Papers](#research-papers)
+- [Companies/Startups](#companiesstartups)
+- [Other Open Source Projects](#other-open-source-projects)
+- [Other Awesome Repos](#other-awesome-repos)
+- [Contributing](#contributing)
 
 
 ## Research Papers
@@ -27,12 +29,12 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 |:-------:|:---------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------:|
 | 05-2023 |                             Stanford University                             | [Frugalgpt: How to use large language models while reducing cost and improving performance](https://arxiv.org/pdf/2305.05176.pdf) | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/585f8b9725f5f5e5495c3508d39f70d1c053e190?fields=citationCount&query=citationCount&label=citation) |                                                 |
 | 09-2023 | Broad Institute, MIT (CSAIL), MIT-IBM Watson AI Lab, University of Michigan | [Large language model routing with benchmark datasets](https://arxiv.org/pdf/2309.15789.pdf)                                      | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/50176544c46b3226a05e7946f6e36ac31c68faf7?fields=citationCount&query=citationCount&label=citation) |                                                 |
-| 03-2024 |                     Martian, UC Berkeley, UC San Diego                      | [ROUTERBENCH: A Benchmark for Multi-LLM Routing System](https://arxiv.org/pdf/2403.12031.pdf)                                     | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/a2ca6f085007d0dceafbc09c2df24e70e771eac5?fields=citationCount&query=citationCount&label=citation) |   https://github.com/withmartian/routerbench    |
-| 05-2024 |                                   MBZUAI                                    | [Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing](https://arxiv.org/pdf/2405.00467.pdf)                  | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/a53200e4d0325568139bfca93538b705944534e4?fields=citationCount&query=citationCount&label=citation) | https://github.com/kvadityasrivatsa/llm-routing |
+| 03-2024 |                     Martian, UC Berkeley, UC San Diego                      | [ROUTERBENCH: A Benchmark for Multi-LLM Routing System](https://arxiv.org/pdf/2403.12031.pdf)                                     | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/a2ca6f085007d0dceafbc09c2df24e70e771eac5?fields=citationCount&query=citationCount&label=citation) |   [GitHub](https://github.com/withmartian/routerbench)    |
+| 05-2024 |                                   MBZUAI                                    | [Harnessing the Power of Multiple Minds: Lessons Learned from LLM Routing](https://arxiv.org/pdf/2405.00467.pdf)                  | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/a53200e4d0325568139bfca93538b705944534e4?fields=citationCount&query=citationCount&label=citation) | [GitHub](https://github.com/kvadityasrivatsa/llm-routing) |
 | 06-2024 |          University of British Columbia, Microsoft, Hippocratic AI          | [Hybrid LLM: Cost-Efficient and Quality-Aware Query Routing](https://arxiv.org/pdf/2404.14618.pdf)                                | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/97b6f4357d1e3ab40a7ee60acb5260a948e3641d?fields=citationCount&query=citationCount&label=citation) |                                                 |
-| 07-2024 |                        UC Berkeley, Anyscale, Canva                         | [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/pdf/2406.18665.pdf)                                     | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/9b3239cff17327960804098e33e1ca903e7b9e85?fields=citationCount&query=citationCount&label=citation) |       https://github.com/lm-sys/RouteLLM        |
+| 07-2024 |                        UC Berkeley, Anyscale, Canva                         | [RouteLLM: Learning to Route LLMs with Preference Data](https://arxiv.org/pdf/2406.18665.pdf)                                     | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/9b3239cff17327960804098e33e1ca903e7b9e85?fields=citationCount&query=citationCount&label=citation) |       [GitHub](https://github.com/lm-sys/RouteLLM)        |
 | 08-2024 |                                 TensorOpera                                 | [PolyRouter: A Multi-LLM Querying System](https://arxiv.org/pdf/2408.12320.pdf)                                                   | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/99fe8a6688dd5fa01628a97385e18c245395ffa7?fields=citationCount&query=citationCount&label=citation) |                                                 |
-| 11-2025 |                         Carnegie Mellon University                          | [An Empirical Study on Strong-Weak Model Collaboration for Repo-level Code Generation](https://aclanthology.org/2025.emnlp-main.1043.pdf) | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/6713c249988aa6bcf3bd40eb8e1a64b5fb8d9eaa?fields=citationCount&query=citationCount&label=citation) | https://github.com/shubhamrgandhi/codegen-strong-weak-collab |
+| 11-2025 |                         Carnegie Mellon University                          | [An Empirical Study on Strong-Weak Model Collaboration for Repo-level Code Generation](https://aclanthology.org/2025.emnlp-main.1043.pdf) | ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https://api.semanticscholar.org/graph/v1/paper/6713c249988aa6bcf3bd40eb8e1a64b5fb8d9eaa?fields=citationCount&query=citationCount&label=citation) | [GitHub](https://github.com/shubhamrgandhi/codegen-strong-weak-collab) |
 
 
 ## Companies/Startups
@@ -41,27 +43,31 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 
 | Name                                       | Platform / App / Chat Arena                                      | Docs                                                                                   | GitHub Repo                                         |
 |--------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------|
-| [Anyscale](https://www.anyscale.com/)      | https://www.anyscale.com/platform                                | https://docs.anyscale.com/                                                             | https://github.com/anyscale/llm-router              |
-| [Aurelio AI](https://www.aurelio.ai/)      | https://www.aurelio.ai/course/semantic-router                    | https://www.aurelio.ai/course/semantic-router                                          | https://github.com/aurelio-labs/semantic-router     |
-| [FerryAPI](https://www.ferryapi.io/)     | https://www.ferryapi.io/                                       | https://www.ferryapi.io/docs                                                          |                                                     |
-| [Langchain](https://www.langchain.com/)    | https://www.langchain.com/langchain                              | https://python.langchain.com/v0.1/docs/expression_language/how_to/routing/             | https://github.com/langchain-ai/langchain           |
-| [Martian](https://withmartian.com/)        | https://withmartian.com/products/model-router                    | https://docs.withmartian.com/martian-model-router/model-router/switching-to-the-router | https://github.com/withmartian/routerbench          |
-| [NeutrinoAI](https://www.neutrinoapp.com/) | https://platform.neutrinoapp.com/auth/login                      | https://docs.neutrinoapp.com/introduction                                              | https://github.com/neutrino-ai                      |
-| [NotDiamond](https://www.notdiamond.ai/)   | https://app.notdiamond.ai/                                       | https://notdiamond.readme.io/docs/what-is-not-diamond                                  | https://github.com/Not-Diamond/notdiamond-python    |
-| [Open Router](https://openrouter.ai/)      | https://openrouter.ai/chat?room=orc-sRs6eKwwynxWRdT8ySvhb1blvwiV | https://openrouter.ai/docs/quick-start                                                 | https://github.com/OpenRouterTeam/openrouter-runner |
-| [Unify](https://unify.ai/)                 | https://console.unify.ai/routers                                 | https://unify.ai/docs                                                                  | https://github.com/unifyai/unify                    |
-| [TensorOpera](https://tensoropera.ai)      | https://tensoropera.ai/prod/deploy/inference-endpoints           | https://docs.tensoropera.ai/                                                           | https://github.com/FedML-AI/PolyRouter              |
-| [XiuRouter](https://router.xiu.ai/)        | https://router.xiu.ai/                                           | https://docs.xiu.ai/router/                                                            |                                                     |
+| [Anyscale](https://www.anyscale.com/)      | [Platform](https://www.anyscale.com/platform)                    | [Docs](https://docs.anyscale.com/)                                                     | [GitHub](https://github.com/anyscale/llm-router)              |
+| [Aurelio AI](https://www.aurelio.ai/)      | [Course](https://www.aurelio.ai/course/semantic-router)          | [Docs](https://www.aurelio.ai/course/semantic-router)                                  | [GitHub](https://github.com/aurelio-labs/semantic-router)     |
+| [FerryAPI](https://www.ferryapi.io/)       | [Platform](https://www.ferryapi.io/)                             | [Docs](https://www.ferryapi.io/docs)                                                   |                                                               |
+| [Langchain](https://www.langchain.com/)    | [Platform](https://www.langchain.com/langchain)                  | [Docs](https://python.langchain.com/v0.1/docs/expression_language/how_to/routing/)      | [GitHub](https://github.com/langchain-ai/langchain)           |
+| [Martian](https://withmartian.com/)        | [Platform](https://withmartian.com/products/model-router)        | [Docs](https://docs.withmartian.com/martian-model-router/model-router/switching-to-the-router) | [GitHub](https://github.com/withmartian/routerbench)          |
+| [NeutrinoAI](https://www.neutrinoapp.com/) | [Platform](https://platform.neutrinoapp.com/auth/login)          | [Docs](https://docs.neutrinoapp.com/introduction)                                      | [GitHub](https://github.com/neutrino-ai)                      |
+| [NotDiamond](https://www.notdiamond.ai/)   | [Platform](https://app.notdiamond.ai/)                           | [Docs](https://notdiamond.readme.io/docs/what-is-not-diamond)                          | [GitHub](https://github.com/Not-Diamond/notdiamond-python)    |
+| [Open Router](https://openrouter.ai/)      | [Platform](https://openrouter.ai/chat?room=orc-sRs6eKwwynxWRdT8ySvhb1blvwiV) | [Docs](https://openrouter.ai/docs/quick-start)                          | [GitHub](https://github.com/OpenRouterTeam/openrouter-runner) |
+| [TensorOpera](https://tensoropera.ai)      | [Platform](https://tensoropera.ai/prod/deploy/inference-endpoints) | [Docs](https://docs.tensoropera.ai/)                                                  | [GitHub](https://github.com/FedML-AI/PolyRouter)              |
+| [Unify](https://unify.ai/)                 | [Platform](https://console.unify.ai/routers)                     | [Docs](https://unify.ai/docs)                                                          | [GitHub](https://github.com/unifyai/unify)                    |
+| [XiuRouter](https://router.xiu.ai/)        | [Platform](https://router.xiu.ai/)                               | [Docs](https://docs.xiu.ai/router/)                                                    |                                                               |
 
-## Other-Open-Source-Projects
+## Other Open Source Projects
 | Name | Description | GitHub Repo |
 |------|-------------|-------------|
-| [LLM-PQR](https://github.com/Amazed-Labs/llm-pqr) | Provider-neutral model selection CLI using measured quality, reliability, latency, cost, capabilities, and hard privacy constraints. | https://github.com/Amazed-Labs/llm-pqr |
-| [Bifrost](https://github.com/maximhq/bifrost) | Go-native, OpenAI-compatible gateway with multi-provider routing, load balancing, and automatic failover. | https://github.com/maximhq/bifrost |
-| [rust-norion](https://github.com/yanghao1143/rust-norion) | Rust-based inference control layer prototype focused on adaptive routing, memory, reflection, device/backend adaptation, benchmark gates, and auditable self-evolution workflows. | https://github.com/yanghao1143/rust-norion |
+| [LLM-PQR](https://github.com/Amazed-Labs/llm-pqr) | Provider-neutral model selection CLI using measured quality, reliability, latency, cost, capabilities, and hard privacy constraints. | [GitHub](https://github.com/Amazed-Labs/llm-pqr) |
+| [Bifrost](https://github.com/maximhq/bifrost) | Go-native, OpenAI-compatible gateway with multi-provider routing, load balancing, and automatic failover. | [GitHub](https://github.com/maximhq/bifrost) |
+| [rust-norion](https://github.com/yanghao1143/rust-norion) | Rust-based inference control layer prototype focused on adaptive routing, memory, reflection, device/backend adaptation, benchmark gates, and auditable self-evolution workflows. | [GitHub](https://github.com/yanghao1143/rust-norion) |
 
 
-## Other-Awesome-Repos
+## Other Awesome Repos
 * [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) on Large Language Models
 * [KennethanCeyer/awesome-llm](https://github.com/KennethanCeyer/awesome-llm) on  Large Language Models
 
+
+## Contributing
+
+Contributions are welcome! Please open a pull request to add or update relevant LLM-routing resources, following the existing format. If you find this list useful, consider starring and sharing the repository.
