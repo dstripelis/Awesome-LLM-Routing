@@ -62,6 +62,7 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 | [Requesty](https://www.requesty.ai/)       | [Platform](https://app.requesty.ai/)                             | [Docs](https://docs.requesty.ai/)                                                      | [GitHub](https://github.com/requestyai)                       |
 | [TensorOpera](https://tensoropera.ai)      | [Platform](https://tensoropera.ai/prod/deploy/inference-endpoints) | [Docs](https://docs.tensoropera.ai/)                                                  | [GitHub](https://github.com/FedML-AI/PolyRouter)              |
 | [Unify](https://unify.ai/)                 | [Platform](https://console.unify.ai/routers)                     | [Docs](https://unify.ai/docs)                                                          | [GitHub](https://github.com/unifyai/unify)                    |
+| [Weave](https://weaveos.com/) | [Weave Router](https://weaveos.com/products/router) | [Quickstart](https://weaveos.com/router/quickstart) | [GitHub](https://github.com/weave-os/router) |
 | [XiuRouter](https://router.xiu.ai/)        | [Platform](https://router.xiu.ai/)                               | [Docs](https://docs.xiu.ai/router/)                                                    |                                                               |
 
 ## Other Open Source Projects
