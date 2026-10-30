@@ -76,6 +76,7 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 | [ORBIT](https://github.com/LAMDA-Model-Reuse/ORBIT) | Standardized LLM routing research and budget-aware evaluation toolbox with a common interface for routers and benchmarks. | [GitHub](https://github.com/LAMDA-Model-Reuse/ORBIT) |
 | [RouteFM](https://lamda-model-reuse.github.io/RouteFM/) | Pretrained, identity-free router that adapts to new candidate pools through behavioral context without retraining. | [GitHub](https://github.com/LAMDA-Model-Reuse/RouteFM) |
 | [RouteJudge](https://routejudge.cn/) | Public platform for reproducible, preference-aware pairwise evaluation of LLM routing systems. | [GitHub](https://github.com/LAMDA-Model-Reuse/ORBIT) |
+| [AgentCompass](https://github.com/akiiwa-games/AgentCompass) | Task-level coding-agent router that scores task profiles and allocates models and efforts across multi-provider subscriptions using live quota windows and PreToolUse launch gates. | [GitHub](https://github.com/akiiwa-games/AgentCompass) |
 
 
 ## Other Awesome Repos
