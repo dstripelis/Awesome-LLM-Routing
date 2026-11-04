@@ -43,6 +43,7 @@ Below, we provide a curated list of research papers and studies discussing LLM r
 | 09-2026 |                         Nanjing University                                  | [When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets](https://openreview.net/forum?id=v2DOrFK8Wp) | | |
 | 09-2026 |                         Nanjing University                                  | [Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing](https://arxiv.org/pdf/2609.37362.pdf) | | [GitHub](https://github.com/LAMDA-Model-Reuse/RouteFM) |
 | 09-2026 |                         Nanjing University et al.                           | [Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing](https://arxiv.org/pdf/2609.37402.pdf) | | [GitHub](https://github.com/LAMDA-Model-Reuse/SaveRouter) |
+| 10-2026 |      Northeastern University, Tsinghua University, China Mobile Online Services      | [Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution](https://arxiv.org/pdf/2610.17816.pdf) | | [GitHub](https://github.com/OpenBMB/EC2-Bench) |
 
 
 ## Companies/Startups
